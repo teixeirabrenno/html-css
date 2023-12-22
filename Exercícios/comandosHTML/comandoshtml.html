@@ -1,0 +1,50 @@
+Abrir imagens de tamanhos diferentes dependendo do tamanho da tela do usuário
+<!-- Nesse exemplo, foto-1 > foto-2 > foto-3
+Caso a width do navegador seja maior que 1050px, carregar foto-1
+Caso a width do navegador seja menor que 1050px, carregar foto-2
+Caso a width do navegador seja menor que 750px, carregar foto-3
+
+<source media="(max-width: 750px)" srcset="foto-3.png" type="image/png" alt='Descrição da foto 3'>
+<source media="(max-width: 1050px)" srcset="foto-2.png" type="image/png" alt='Descrição da foto 2'>
+<img src="foto-1.png" alt="Descrição da foto 1"> -->
+
+Links para download ou ancôras
+<!-- rel='external' é para o mecanismo de busca do Google. Indica que o site é externo ao seu.
+target='_blank' abre o link em uma nova guia
+target='_self' abre o link na mesma guia
+
+<a href="Link de destino" rel='external' target="_blank">Área onde eu clico para entrar no link</a>
+<a href="pasta/Arquivo.pdf" download="Arquivo.pdf" type="application/pdf">Área onde eu clico para baixar o arquivo</a>
+
+Neste exemplo, um arquivo PDF é baixado -->
+
+Áudios
+
+<!-- <source src="audio.mp3" type="audio/mpeg">
+<source src="audio.ogg" type="audio/ogg">
+<source src="audio.wav" type="audio/wav">
+<p>Seu navegador não é capaz de reproduzir áudio</p>
+
+Neste exemplo, eu forneço 3 tipos de arquivos de áudio diferentes e uma mensagem caso não seja possível carregar nenhum
+O navegador carregará os arquivos na ordem em que eu escrevi -->
+
+Vídeos
+
+<!-- <video controls poster="thumbnail.png">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.m4v" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    <source src="video.ogv" type="video/ogg">
+    <p>Seu navegador não é capaz de reproduzir vídeos</p>
+</video>
+
+Neste exemplo, eu forneço 4 tipos de arquivos de vídeo diferentes e uma mensagem caso não seja possível carregar nenhum
+O navegador tentará carregar os arquivos na ordem em que eu escrevi
+O comando 'controls' adiciona os controles ao player de vídeo
+O comando 'poster' adiciona uma thumbnail
+ATENÇÃO: Reduza o tamanho dos vídeos utilizando o HandBrake
+
+Para inserir vídeos diretamente do YouTube ou VIMEO, é só ir em 'Compartilhar - Incorporar e copiar o código' 
+VIMEO tem melhor qualidade e é melhor para materiais que não podem ser liberados a todos, mas é preciso pagar para upar vídeos para o VIMEO.
+DESSA FORMA NÃO CONSOME DADOS DO SEU SERVIDOR -->
+

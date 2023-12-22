@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    /* Carrega as três fontes mais confiáveis em ordem */
+    font-size: 10px; 
+    /* Muda o tamanho da fonte */
+    font-weight: lighter, bold, bolder, normal;
+    /* Negrito e etc...*/
+    font-style: italic, normal, oblique;
+    /* Muda o estilo da fonte */
+   
+
+    #   =  id
+    .   =  class
+    :   =  pseudo-class ( :visited, :active, :hover, etc... )
+    ::  =  pseudo-element ( ::before, ::after, etc... )
+    >   =  children
+
+
+}

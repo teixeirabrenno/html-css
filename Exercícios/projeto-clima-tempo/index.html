@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+        <div id="box">
+            <div id="left">
+                <div id="form">
+                    <p><input type="text" id="localizacaotxt"> <input type="button" value="Pesquisar" onclick="pesquisar()"></p>
+                </div>
+                <span id="mensagem"></span>
+        
+                <div id="maininfo">
+                    <img src="imagens/nublado.png" alt="nublado">
+                    <h1>27°C</h1>
+                    <p>Parcialmente nublado</p>
+                </div>
+            </div>
+            
+            <div id="right">
+                <div id="nextday">
+                    <h3>Quarta</h3>
+                    <div id="nextdayinfo">
+                        <img src="imagens/nublado.png" alt="nublado">
+                        <p><strong>24°C</strong></p>
+                    </div>    
+                        <p>Parcialmente nublado</p>                    
+                </div>
+                <hr>
+                <div id="nextday2">
+                    <h3>Quinta</h3>
+                    <div id="nextday2info">
+                        <img src="imagens/chuva.png" alt="chuva">
+                        <p><strong>18°C</strong></p>
+                        
+                    </div>
+                    <p>Chuva</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

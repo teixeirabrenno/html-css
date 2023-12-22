@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightcyan;
+   
+}
+p{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
