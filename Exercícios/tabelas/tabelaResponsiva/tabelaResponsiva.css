@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+   border: 1px solid black;
+   padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+caption{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+div#box{
+    overflow-x: auto;
+}

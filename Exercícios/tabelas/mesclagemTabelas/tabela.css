@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 100px;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+th.main{
+    background: lightgrey
+}
+
+.women, .women > td{
+    background: linear-gradient(rgb(245, 186, 245), rgb(209, 207, 209));
+}
+
+.men{
+    background: linear-gradient(rgb(185, 184, 241), rgb(188, 188, 190));
+}
