@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <!-- method='get': faz com que os dados apareçam na URL, são ideais para campos não sensíveis, como campos de pesquisa e etc.
+
+        method='post': faz com os dados não apareçam na URL, mas naõ estão criptografados. Ainda é possível vê-los ao acessar o DevTools. -->
+
+        <p>
+            <label for="iusu"> Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="3" maxlength="20" placeholder="Nome de usuário" autocomplete="username">
+        </p>
+
+        <p>
+            <label for="isenha"> Senha: </label>
+            <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" placeholder="Senha" autocomplete="current-password">
+        </p>
+
+        <!-- Sempre colocar o ID em "label for='#'""
+        
+        required: faz com o preenchimento do campo seja obrigatório.
+
+        placeholder: o que vai aparecer escrito antes do usuário clicar na caixa.
+
+        autocomplete: faz com que os mecanismos do navegador sugiram usernames ou senhas utilizadas anteriormente.
+
+        autocomplete='current-password': utiliza em formulários de login.
+
+        autocomplete='new-password': utilizado em formulários de inscrição. -->
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+    
+</body>
+</html>
